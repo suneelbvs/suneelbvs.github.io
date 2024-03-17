@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xinhao Li"
+title                    : "Suneel Kumar BVS"
 title_separator          : "-"
-name                     : &name "Xinhao Li"
+name                     : &name "Suneel Kumar BVS"
 description              : &description ""
-url                      : https://xinhaoli74.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://suneelbvs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : ""
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -23,7 +23,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider               : "disqus" # false (default), , "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : '@xinhao_li'
+    shortname            : '@suneelbvs'
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
