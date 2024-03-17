@@ -10,6 +10,8 @@ redirect_from:
 
 Working as Director of AI & Drug Design. I am interested in applying machine learning, especially deep learning, techniques for solving challenging problems in chemistry, drug discovery. 
 
+**Website is under development and template inspired from Xin"**
+
 My primary research interests involve:  
 - Quantitative Structure-Activity Relationships (QSAR) modeling.
 - Development of data-driven and interpretable molecular representations via deep learning.
