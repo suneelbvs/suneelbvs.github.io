@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xinhao Li"
+  name             : "Suneel Kumar BVS"
   avatar           : "bio-photo.png"
-  bio              : "Ph.D. in Cheminformatics; Machine Learning; Deep learning"
-  location         : "Rockville, MD"
-  employer         :
+  bio              : "Director, AI & Drug Design"
+  location         : "Montreal, Canada"
+  employer         : "Molecular Forecaster"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=skSPdzUAAAAJ&hl=en"
-  email            : "xinhaoli74@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=DlY5NQ4AAAAJ&hl=en"
+  email            : "suneelkumar.bvs@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "XinhaoLi74"
+  github           : "suneelbvs"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "XinhaoLi1"
+  twitter          : "suneel_bvs"
   vine             :
   weibo            :
   xing             :
