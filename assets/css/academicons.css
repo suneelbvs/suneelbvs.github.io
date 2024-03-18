@@ -94,7 +94,7 @@
 .ai-doi-square:before {
   content: "\e823";
 }
-h1 {
+strong {
     color: blue;
 }
 .my-heading-class {
