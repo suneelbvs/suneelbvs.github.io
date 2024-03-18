@@ -94,6 +94,12 @@
 .ai-doi-square:before {
   content: "\e823";
 }
+h1 {
+    color: blue;
+}
+.my-heading-class {
+    color: blue;
+}
 .ai-dryad:before {
   content: "\e824";
 }
