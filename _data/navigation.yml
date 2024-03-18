@@ -16,7 +16,8 @@ main:
      url: /portfolio/
     
    - title: "Resume"
-    url: /Resume/
+     url: /Resume/
     
    - title: "Guide"
      url: /markdown/
+ 
