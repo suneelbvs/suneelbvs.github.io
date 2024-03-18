@@ -27,7 +27,7 @@ The SARS-CoV-2 virus contains a host of nonstructural proteins (NSPs) that contr
 ![Overview to AI-driven molecular_design](/images/LSTM_Fragment_based_drug_design.png)
 
 **[Generative Models for Fragment-based drug design]**
-#(/images/HQSAR.png)
+
 Treating acute myeloid leukemia (AML) by targeting FMS-like tyrosine kinase 3 (FLT-3) is considered an effective treatment strategy. By using AI-assisted hit optimization, we discovered a novel and highly selective compound with desired drug-like properties with which to target the FLT-3 (D835Y) mutant. In the current study, we applied an **AI-assisted de novo design approach** to identify a novel inhibitor of FLT-3 (D835Y). A recurrent neural network containing long short-term memory cells (LSTM) was implemented to generate potential candidates related to our in-house hit compound (PCW-1001). Approximately 10,416 hits were generated from 20 epochs, and the generated hits were further filtered using various toxicity and synthetic feasibility filters. Based on the docking and free energy ranking, the top compound was selected for synthesis and screening. Of these three compounds, PCW-A1001 proved to be highly selective for the FLT-3 (D835Y) mutant, with an IC50 of 764 nM, whereas the IC50 of FLT-3 WT was 2.54 μM. [[Frontiers in Molecular Biosciences]([https://doi.org/10.26434/chemrxiv.12339368.v1](https://www.frontiersin.org/articles/10.3389/fmolb.2022.1072028/full))] 
 
 ![PCW001](/AI_Driven_Molecular_Design_Workflow.jpg)
