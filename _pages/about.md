@@ -19,6 +19,7 @@ My primary research interests involve:
 
 ## Recent Works & Projects
 **Book Chapter : Toxicity Forecasts: Navigating Data-Driven AI/ML Models - From Theory to Practice**
+
 Submitted the first book chapter on "Toxicity Forecasts: Navigating Data-Driven AI/ML Models - From Theory to Practice" to be published by Taylor & Francis Group @AppleAcademicPress. Thank you Antoine Moitessier and Nicolas Moitessier for your invaluable support and pleasure to collaborate with you on this. The book chapter focuses on practical implementation of AI/ML with toxicity datasets and includes coding snippets from #rdkit #deepchem, and scikit-learn accompanied by detailed explanations. Thank you, Editors - Dr. Shrikaant Kulkarni and Dr. Shashikant V. Bhandari for your invite and support. [_Apple_Academy_Press_]([https://pubs.acs.org/doi/10.1021/acs.chemrestox.9b00259](https://www.appleacademicpress.com/artificial-intelligence-for-chemical-sciences-concepts-models-and-applications-/9781774918326)).
 ![Toxicity Forecasts](/images/AI_ML Models_for_Toxicity_Forecasts.jpg)
 
