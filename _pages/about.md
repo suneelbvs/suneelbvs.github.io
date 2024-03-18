@@ -8,14 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Working as Director of AI & Drug Design. I am interested in applying machine learning, especially deep learning, techniques for solving challenging problems in chemistry, drug discovery. 
+I'm the Director of AI & Drug Design at Molecular Forecaster, Canada, where my focus is on leveraging machine learning, particularly deep learning, to address complex issues in chemistry and drug discovery. 
 
-**Website is under development and template inspired from Xin"**
-
-My primary research interests involve:  
-- Quantitative Structure-Activity Relationships (QSAR) modeling.
-- Development of data-driven and interpretable molecular representations via deep learning.
-- Molecular informatics approach for visualizing and navigating chemical space.
+My main research areas include:
+- Developing strategies for molecular design using AI.
+- Implementing explainable AI within the context of drug design.
+- Applying deep learning for structure-based drug discovery methods.
 
 ## Recent Works & Projects
 **Book Chapter : Toxicity Forecasts: Navigating Data-Driven AI/ML Models - From Theory to Practice**
