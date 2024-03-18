@@ -2,10 +2,12 @@
 main:
   - title: "Blog"
     url: /year-archive/
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Resume"
+    url: /Resume/    
   - title: "Talks"
     url: /talks/   
+  - title: "Publications"
+    url: /publications/
     
    #- title: "Resume"
     # url: /Resume/
