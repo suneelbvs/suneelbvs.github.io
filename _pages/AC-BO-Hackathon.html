@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>Presentation slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>Presentation2 slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7659,7 +7659,8 @@ The half-life of a drug refers to the time it takes for the concentration of the
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Dataset-Distribution:-(Need-of-cleaning)">Dataset Distribution: (Need of cleaning)<a class="anchor-link" href="#Dataset-Distribution:-(Need-of-cleaning)">¶</a></h2><p><img alt="image.png" src="image/image.png"></p>
+<h2 id="Dataset-Distribution:-(Need-of-cleaning)">Dataset Distribution: (Need of cleaning)<a class="anchor-link" href="#Dataset-Distribution:-(Need-of-cleaning)">¶</a></h2><p>file_name = "image.png.png"
+plt.savefig(os.path.join(file_name))</p>
 <ul>
 <li>For current activity, we have cleaned dataset for property threshold and filtered dataset considered for featurization. Datasets needs to be reviewed carefully, but couldnt acheive due to the timelines.</li>
 </ul>
@@ -7680,102 +7681,6 @@ pip<span class="w"> </span>install<span class="w"> </span>torch
 pip<span class="w"> </span>install<span class="w"> </span>gpytorch
 pip<span class="w"> </span>install<span class="w"> </span>requests
 </pre></div>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Acquisition-Function:">Acquisition Function:<a class="anchor-link" href="#Acquisition-Function:">¶</a></h2><ul>
-<li><strong>Greedy Predicitive power</strong>)**: Predictive performance of the Greedy Acquisition Function across 20 iterations on the LD50 dataset, using ECFP with a length of 2048, radius of 2.</li>
-</ul>
-<p><img alt="GP_AF_Selection.png" src="data:image/GP_AF_Selection.png"></p>
-<ul>
-<li><strong>Normalized Acquisition Values (Green Line)</strong>: The acquisition values are normalized, meaning they're scaled to a range, often [0, 1], for visualization purposes.</li>
-<li><strong>New Observations (Red Dots)</strong>: These dots mark the points that have been selected for labeling in each iteration based on the acquisition values</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Acquisition-Function:">Acquisition Function:<a class="anchor-link" href="#Acquisition-Function:">¶</a></h2><ul>
-<li><strong>Greedy Predicitive power</strong>: Predictive performance of the Acquisition Functions at 6th iteration on the LD50 dataset, using ECFP with a length of 2048, radius of 2.</li>
-</ul>
-<p><img alt="Greedy_AF.gif" src="images/Greedy_AF.gif">
-</p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Model-Performace-(Random-Forest):">Model Performace (Random Forest):<a class="anchor-link" href="#Model-Performace-(Random-Forest):">¶</a></h2><p><img alt="ld50_dataset_using_random_forest.png" src="image/ld50_dataset_using_random_forest.png"></p>
-<ul>
-<li><strong>Observations</strong>:</li>
-<li>The "<em>Upper Confidence Bound</em>" and "<em>Greedy</em>" acquisition functions show a notable increase in the number of predictions over the 90th percentile, with the Upper Confidence Bound having a slight edge in later batches.</li>
-<li>The "<em>Random</em>" acquisition function demonstrates the slowest growth in performance, which reinforces the value of informed acquisition functions in an active learning framework.</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Model-Performace-(Gaussian-Process):">Model Performace (Gaussian Process):<a class="anchor-link" href="#Model-Performace-(Gaussian-Process):">¶</a></h2><p><img alt="ld50_dataset_GP_ECFP_2048.png" src="image/ld50_dataset_GP_ECFP_2048.png"></p>
-<ul>
-<li><strong>Observations</strong>:</li>
-<li>The "<em>Upper Confidence Bound</em>" acquisition function outperforms the others, with a steep improvement curve, suggesting it efficiently captures the uncertainty and potential of new data points to improve the model.</li>
-<li>The "<em>Expected Improvement</em>" and "<em>Probability of Improvement</em>" acquisition functions initially perform comparably but Expected Improvement seems to achieve a higher number of high-quality predictions as more batches are processed, indicating it may be better at balancing exploration and exploitation in this context.</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="IMPACT-Fingerprint-length-on-AF-and-Model-performance:">IMPACT Fingerprint length on AF and Model performance:<a class="anchor-link" href="#IMPACT-Fingerprint-length-on-AF-and-Model-performance:">¶</a></h2><p><img alt="ECFP_LENGHT_IMPACT.png" src="image/ECFP_LENGHT_IMPACT.png"></p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Future-Plans:">Future Plans:<a class="anchor-link" href="#Future-Plans:">¶</a></h2><ul>
-<li><p>TBD</p>
-</li>
-<li><p>Impact of acquisition functions (AF)</p>
-</li>
-<li><p>we studied 5 AF's named Greedy, Random,</p>
-</li>
-<li><p>We also studied the impact of molecular featurizations on AF selection and recall</p>
-</li>
-</ul>
 </div>
 </div>
 </div>
