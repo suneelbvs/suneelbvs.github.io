@@ -8,6 +8,8 @@ main:
     url: /talks/   
   - title: "Publications"
     url: /publications/
+  - title: "AC-BO-Hackathon"
+    url: /AC-BO-Hackathon.html/
     
    #- title: "Resume"
     # url: /Resume/
