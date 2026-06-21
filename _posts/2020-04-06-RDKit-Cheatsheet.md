@@ -5,6 +5,8 @@ permalink: /posts/2020/04/RDKit-Cheatsheet/
 tags:
   - Cheatsheet
   - RDKit
+header:
+  teaser: "ecfp.jpg"
 
 ---
 

@@ -4,6 +4,9 @@ date: 2019-12-21
 permalink: /posts/2019/12/DGL-Basic01-Data/
 tags:
   - DGL
+  - Graph Neural Networks
+header:
+  teaser: "DGL-Basic01-Data_files/DGL-Basic01-Data_45_0.png"
 
 ---
 
