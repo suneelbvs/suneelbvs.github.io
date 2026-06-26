@@ -1,0 +1,127 @@
+/* ===========================================================================
+   Suneel Kumar BVS — Teal + Amber palette for Material for MkDocs
+   =========================================================================== */
+
+:root {
+  /* Primary = teal/cyan */
+  --md-primary-fg-color:        #0e7490;
+  --md-primary-fg-color--light: #0891b2;
+  --md-primary-fg-color--dark:  #155e75;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  /* Accent = amber (hovers, active links, focus) */
+  --md-accent-fg-color:             #d97706;
+  --md-accent-fg-color--transparent: rgba(217, 119, 6, 0.1);
+
+  /* Brand gradient used on hero / banners */
+  --hero-grad: linear-gradient(125deg, #0e7490 0%, #0891b2 45%, #0d9488 100%);
+}
+
+/* Dark mode tuning */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #0891b2;
+  --md-primary-fg-color--light: #22d3ee;
+  --md-primary-fg-color--dark:  #0e7490;
+  --md-accent-fg-color:         #fbbf24;
+  --md-hue: 215; /* cooler slate */
+}
+
+/* Links pick up a readable teal in light mode */
+[data-md-color-scheme="default"] .md-typeset a {
+  color: #0e7490;
+}
+[data-md-color-scheme="default"] .md-typeset a:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* ---------------------------------------------------------------------------
+   Home hero banner
+   --------------------------------------------------------------------------- */
+.hero {
+  position: relative;
+  margin: -1.2rem 0 2.4rem;
+  padding: 3rem 2rem 3.2rem;
+  border-radius: 16px;
+  background: var(--hero-grad);
+  color: #ecfeff;
+  overflow: hidden;
+  box-shadow: 0 18px 40px -18px rgba(8, 145, 178, 0.55);
+}
+.hero::after {
+  content: "";
+  position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.10) 1px, transparent 1px);
+  background-size: 40px 40px;
+  -webkit-mask-image: radial-gradient(circle at 80% 0%, #000, transparent 70%);
+  mask-image: radial-gradient(circle at 80% 0%, #000, transparent 70%);
+}
+.hero__grid {
+  position: relative; z-index: 1;
+  display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center;
+}
+.hero__eyebrow {
+  display: inline-block; font-size: .72rem; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: #a5f3fc; margin-bottom: .6rem;
+}
+.hero h1, .md-typeset .hero h1 {
+  color: #ffffff; font-weight: 800; line-height: 1.1;
+  margin: 0 0 .6rem; font-size: 2.1rem; letter-spacing: -.02em;
+}
+.hero p { color: #e0f7fb; margin: 0; font-size: .98rem; max-width: 40rem; }
+.hero .amber { color: #fde68a; }
+.hero__avatar {
+  width: 132px; height: 132px; border-radius: 18px; object-fit: cover;
+  border: 3px solid rgba(255,255,255,.35);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
+.hero__cta { margin-top: 1.3rem; display: flex; flex-wrap: wrap; gap: .6rem; }
+.hero__cta .md-button {
+  border-color: rgba(255,255,255,.6); color: #fff;
+}
+.hero__cta .md-button--primary {
+  background: #fff; color: #0e7490; border-color: #fff;
+}
+.hero__cta .md-button:hover {
+  background: var(--md-accent-fg-color); color: #fff; border-color: var(--md-accent-fg-color);
+}
+@media screen and (max-width: 60em) {
+  .hero__grid { grid-template-columns: 1fr; }
+  .hero__avatar { width: 100px; height: 100px; }
+}
+
+/* ---------------------------------------------------------------------------
+   Card grids (Material built-in `.grid.cards`) — a little extra polish
+   --------------------------------------------------------------------------- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 14px;
+  border: .05rem solid var(--md-default-fg-color--lightest);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px -14px rgba(8, 145, 178, 0.45);
+  border-color: var(--md-primary-fg-color--light);
+}
+.md-typeset .grid.cards > ul > li > hr {
+  margin: .8rem 0; border-color: var(--md-default-fg-color--lightest);
+}
+
+/* Section accent under H2 headings in content */
+.md-typeset h2 {
+  border-bottom: 2px solid var(--md-default-fg-color--lightest);
+  padding-bottom: .3rem;
+}
+
+/* Tag pills (blog) */
+.md-typeset .md-tag {
+  background: var(--md-primary-fg-color--light);
+  color: #fff;
+}
+
+/* Footer social icons a touch larger */
+.md-social__link svg { width: 1.1rem; height: 1.1rem; }

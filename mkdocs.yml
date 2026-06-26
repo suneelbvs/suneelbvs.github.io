@@ -1,0 +1,130 @@
+site_name: Suneel Kumar BVS
+site_description: >-
+  Suneel Kumar BVS — Director of AI & Drug Design. AI-driven molecular design,
+  explainable AI, structure-based drug discovery and cheminformatics.
+site_url: https://suneelbvs.github.io/
+site_author: Suneel Kumar BVS
+copyright: Copyright &copy; Suneel Kumar BVS
+
+repo_url: https://github.com/suneelbvs/suneelbvs.github.io
+repo_name: suneelbvs.github.io
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/molecule
+    repo: fontawesome/brands/github
+  favicon: images/suneel_bvs.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  palette:
+    # Light mode — Teal + Amber
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Résumé: resume.md
+  - Projects:
+      - projects/index.md
+      - AI-Driven Molecular Design: projects/ai-molecular-design.md
+      - Selective FLT-3 Inhibitor: projects/flt3-inhibitor.md
+      - Fragment-Based Generative Design: projects/fragment-based-design.md
+      - AI/ML Toxicity Forecasts: projects/toxicity-forecasts.md
+  - Publications: publications.md
+  - Blog:
+      - blog/index.md
+
+plugins:
+  - search
+  - blog:
+      blog_toc: true
+      post_url_format: "{slug}"
+      archive_date_format: MMMM yyyy
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/suneelbvs
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/suneelbommisetty
+      name: LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/suneel_bvs
+      name: Twitter / X
+    - icon: fontawesome/solid/graduation-cap
+      link: https://scholar.google.com/citations?user=DlY5NQ4AAAAJ&hl=en
+      name: Google Scholar
+    - icon: fontawesome/solid/envelope
+      link: mailto:suneelkumar.bvs@gmail.com
+      name: Email
+
+extra_css:
+  - stylesheets/extra.css
+
+validation:
+  absolute_links: ignore
+  unrecognized_links: ignore
+  nav:
+    omitted_files: ignore

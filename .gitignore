@@ -1,7 +1,12 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
-.bundle/
-vendor/
+# MkDocs build output
+/site/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
