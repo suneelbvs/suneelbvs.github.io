@@ -4,11 +4,18 @@ title: Selected Projects
 
 # Selected Projects
 
-A curated selection of work at the intersection of **machine learning** and
-**drug design** — from generative molecular design to explainable AI and
-data-driven toxicity modeling.
+A curated selection of work at the intersection of **machine learning**, **computational chemistry**, and **drug design** — from generative molecular design to explainable AI, structural case studies, and data-driven toxicity modeling.
 
 <div class="grid cards" markdown>
+
+-   :material-molecule:{ .lg .middle } &nbsp; __Belzutifan — Interactive Drug Discovery Case Study__
+
+    ---
+
+    Explore the HIF-2α cryptic pocket, allosteric inhibition, PT2385 metabolic liability,
+    fluorine-enabled redesign, and belzutifan-bound **PDB 7W80** in an interactive 3D viewer.
+
+    [:octicons-arrow-right-24: Explore the case study](belzutifan-case-study/index.html)
 
 -   :material-atom:{ .lg .middle } &nbsp; __AI-Driven Molecular Design__
 
