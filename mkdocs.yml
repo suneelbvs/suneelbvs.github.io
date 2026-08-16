@@ -52,7 +52,6 @@ nav:
   - Résumé: resume.md
   - Projects:
       - projects/index.md
-      - Belzutifan — Interactive Case Study: projects/belzutifan-case-study.md
       - AI-Driven Molecular Design: projects/ai-molecular-design.md
       - Selective FLT-3 Inhibitor: projects/flt3-inhibitor.md
       - Fragment-Based Generative Design: projects/fragment-based-design.md
